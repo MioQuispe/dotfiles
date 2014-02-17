@@ -46,7 +46,7 @@ ZSH_THEME="lambda"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git catimg compleat custom-aliases fasd git-extras git-flow last-working-dir npm redis-cli vi-mode web-search)
+plugins=(git autojump archlinux colored-man colorize command-not-found compleat custom-aliases fasd git-extras git-flow last-working-dir npm redis-cli vi-mode web-search)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -88,3 +88,5 @@ zmodload zsh/complist
 chpwd() ls
 
 # source ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+ls

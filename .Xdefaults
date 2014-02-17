@@ -1,5 +1,6 @@
 URxvt*loginShell:true
-URxvt*transparent:true
+URxvt*transparent: false
+URxvt*inheritPixmap: true
 URxvt*shading:5
 ! URxvt*background:Black
 ! URxvt*foreground:White

@@ -73,6 +73,7 @@ NeoBundle 'vim-scripts/vcscommand.vim'
 NeoBundle 'mbbill/undotree'
 " NeoBundle 'https://github.com/tpope/vim-fugitive.git'
 NeoBundle 'justinmk/vim-sneak'
+NeoBundle 'gcmt/wildfire.vim.git'
 NeoBundleLazy 'jelera/vim-javascript-syntax', {'autoload':{'filetypes':['javascript']}}
 
 "
@@ -248,6 +249,7 @@ set gdefault
 
 filetype plugin on
 
+
 "syntastic"
 let g:syntastic_check_on_open=1
 let g:syntastic_auto_loc_list=1
@@ -293,12 +295,6 @@ autocmd FileType javascript,css,php,html,YOUR_LANG inoremap <silent> ,; <ESC>:ca
 let g:UltiSnipsExpandTrigger = "¨"
 let g:UltiSnipsJumpForwardTrigger = "<c-j>"
 let g:UltiSnipsJumpBackwardTrigger = "<c-k>"
-
-
-"" au VimEnter * RainbowParenthesesToggle
-"" au Syntax * RainbowParenthesesLoadRound
-"" au Syntax * RainbowParenthesesLoadSquare
-"" au Syntax * RainbowParenthesesLoadBraces
 
 "Vim move"
 let g:move_key_modifier = 'C'
@@ -358,5 +354,6 @@ xmap f <Plug>Sneak_f
 xmap F <Plug>Sneak_F
 omap f <Plug>Sneak_f
 omap F <Plug>Sneak_F
+
 
 NeoBundleCheck
