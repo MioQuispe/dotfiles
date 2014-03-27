@@ -57,6 +57,7 @@ NeoBundle 'kana/vim-textobj-user'
 NeoBundle 'Julian/vim-textobj-variable-segment'
 NeoBundle 'bronson/vim-trailing-whitespace'
 NeoBundle 'Shougo/vimproc.vim'
+NeoBundle 'mattn/livestyle-vim'
 " {
 "   \ 'build': {
 "   \     'windows': 'make -f make_mingw32.mak',
@@ -69,11 +70,17 @@ NeoBundle 'Valloric/YouCompleteMe'
 NeoBundle 'marijnh/tern_for_vim'
 NeoBundle 'Shougo/unite-outline'
 NeoBundle 'PeterRincker/vim-argumentative'
-NeoBundle 'vim-scripts/vcscommand.vim'
 NeoBundle 'mbbill/undotree'
-" NeoBundle 'https://github.com/tpope/vim-fugitive.git'
-NeoBundle 'justinmk/vim-sneak'
+NeoBundle 'tpope/vim-fugitive'
+NeoBundle 'int3/vim-extradite'
 NeoBundle 'gcmt/wildfire.vim.git'
+NeoBundle 'Lokaltog/vim-easymotion'
+NeoBundle 'scrooloose/nerdtree'
+NeoBundle 'tommcdo/vim-exchange'
+NeoBundle 'gregsexton/gitv'
+NeoBundle 'mustache/vim-mustache-handlebars'
+NeoBundle 'groenewege/vim-less'
+NeoBundle 'mhinz/vim-startify'
 NeoBundleLazy 'jelera/vim-javascript-syntax', {'autoload':{'filetypes':['javascript']}}
 
 "
@@ -183,18 +190,16 @@ let g:javascript_enable_domhtmlcss = 1
 :inoremap <C-Space> <C-x><C-l>
 :nnoremap Q <nop>
 :noremap Q @@
-:nnoremap j gj
-:nnoremap k gk
+:nnoremap J gj
+:nnoremap K gk
 :let mapleader = " "
-nmap J 6j
-nmap K 6k
-xmap J 6j
-xmap K 6k
-map H ^
-map L $
+
+nnoremap J 5gj
+nnoremap K 5gk
+noremap H ^
+noremap L $
+
 map Y y$
-nmap t o<ESC>k
-nmap T O<ESC>j
 nnoremap + <C-a>
 nnoremap - <C-x>
 imap <C-c> <CR><CR><Esc>kcc
@@ -219,7 +224,7 @@ xmap <silent> ie <Plug>CamelCaseMotion_ie
 cmap w!! %!sudo tee > /dev/null %
 
 set timeout timeoutlen=3000 ttimeoutlen=100
-set autoindent
+" set autoindent
 set tabstop=4
 set incsearch
 set noswapfile
@@ -272,9 +277,10 @@ let g:tagbar_compact=1
 let g:tagbar_width=30
 
 "indent guide"
-set ts=4 sw=4 et
-let g:indent_guides_enable_on_vim_startup=1
-let g:indent_guides_auto_colors=1
+" set ts=4 sw=4 et
+" let g:indent_guides_enable_on_vim_startup=1
+"
+" let g:indent_guides_auto_colors=1
 
 " " brolink.js"
 " au InsertLeave *.html :w | :BLReloadPage
@@ -286,9 +292,9 @@ autocmd FileType javascript,css,php,html,YOUR_LANG nmap <silent> ,; :call cosco#
 autocmd FileType javascript,css,php,html,YOUR_LANG inoremap <silent> ,; <ESC>:call cosco#commaOrSemiColon()"<CR>a"
 
 "sexy scroller"
-:let g:SexyScroller_ScrollTime = 3
+:let g:SexyScroller_ScrollTime = 2
 :let g:SexyScroller_CursorTime = 0
-:let g:SexyScroller_MaxTime = 80
+:let g:SexyScroller_MaxTime = 400
 :let g:SexyScroller_EasingStyle = 3
 
 "UltiSnips
@@ -346,14 +352,23 @@ nnoremap <F5> :UndotreeToggle<cr>
 "VCSCommand
 :let g:VCSCommandSplit='vertical'
 
-"Vim sneak
-"replace 'f' with inclusive 1-char Sneak
-nmap f <Plug>Sneak_f
-nmap F <Plug>Sneak_F
-xmap f <Plug>Sneak_f
-xmap F <Plug>Sneak_F
-omap f <Plug>Sneak_f
-omap F <Plug>Sneak_F
+map f w
+map s b
+map F W
+map S B
+" nmap t <Plug>(easymotion-sn)
+" map n <Plug>(easymotion-next)
+" map N <Plug>(easymotion-prev)
+let g:EasyMotion_startofline = 0 " keep cursor colum when JK motion
+let g:EasyMotion_smartcase = 1
 
+"NERDTree
+" autocmd vimenter * NERDTree
+map <F3> :NERDTreeToggle<CR>
+
+"wildfire.vim
+let g:wildfire_objects = ["i'", 'i"', "i)", "i]", "i}", "ip", "it"]
+" emmet.vim
+imap <S-Space> <C-y>,
 
 NeoBundleCheck

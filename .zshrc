@@ -1,3 +1,4 @@
+GOPATH=~/.go
 # Path to your oh-my-zsh configuration.
 ZSH=/usr/share/oh-my-zsh
 # ZSH=$HOME/.oh-my-zsh
@@ -86,7 +87,5 @@ autoload -Uz compinit
 compinit -D 
 zmodload zsh/complist
 chpwd() ls
-
-# source ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 ls

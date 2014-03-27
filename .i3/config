@@ -179,7 +179,7 @@ bar {
 #Custom
 exec /usr/bin/pa-applet &
 exec /usr/bin/nm-applet &
-exec --no-startup-id sh ~/.fehbg &
+# exec --no-startup-id sh ~/.fehbg &
 exec dunst
 new_window none
 for_window[class="^.*"] border pixel 0
