@@ -40,7 +40,6 @@ NeoBundle 'Chiel92/vim-autoformat'
 NeoBundle 'skammer/vim-css-color'
 NeoBundle 'nathanaelkane/vim-indent-guides'
 NeoBundle 'michaeljsmith/vim-indent-object'
-NeoBundle 'ldx/vim-indentfinder'
 NeoBundle 'pangloss/vim-javascript'
 NeoBundle 'elzr/vim-json'
 NeoBundle 'tsaleh/vim-matchit'
@@ -81,6 +80,9 @@ NeoBundle 'gregsexton/gitv'
 NeoBundle 'mustache/vim-mustache-handlebars'
 NeoBundle 'groenewege/vim-less'
 NeoBundle 'mhinz/vim-startify'
+NeoBundle 'beloglazov/vim-textobj-quotes'
+NeoBundle 'tpope/vim-sleuth'
+NeoBundle 'heavenshell/vim-jsdoc'
 NeoBundleLazy 'jelera/vim-javascript-syntax', {'autoload':{'filetypes':['javascript']}}
 
 "
@@ -190,8 +192,8 @@ let g:javascript_enable_domhtmlcss = 1
 :inoremap <C-Space> <C-x><C-l>
 :nnoremap Q <nop>
 :noremap Q @@
-:nnoremap J gj
-:nnoremap K gk
+:nnoremap j gj
+:nnoremap k gk
 :let mapleader = " "
 
 nnoremap J 5gj
@@ -307,14 +309,14 @@ let g:move_key_modifier = 'C'
 
 "Vim matchmaker"
 let g:matchmaker_enable_startup = 1
-:highlight Matchmaker guibg=DarkMagenta ctermbg=239 
+:highlight Matchmaker guibg=DarkMagenta ctermbg=239
 
 " automatically reload vimrc when it's saved
 " au BufWritePost .vimrc so ~/.vimrc
 "
 
 "Tern for vim
-let g:tern_show_argument_hints = 'on_move'
+let g:tern_show_argument_hints = 'on_hold'
 
 " Unite
 let g:unite_source_history_yank_enable = 1
@@ -352,10 +354,6 @@ nnoremap <F5> :UndotreeToggle<cr>
 "VCSCommand
 :let g:VCSCommandSplit='vertical'
 
-map f w
-map s b
-map F W
-map S B
 " nmap t <Plug>(easymotion-sn)
 " map n <Plug>(easymotion-next)
 " map N <Plug>(easymotion-prev)
