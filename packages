@@ -1,0 +1,421 @@
+extra/adobe-source-sans-pro-fonts 1.050-1
+extra/alsa-utils 1.0.27.2-1
+community/antiword 0.37-3
+extra/apache 2.4.9-1
+extra/archlinux-themes-slim 1.2-3
+community/astyle 2.04-1
+core/autoconf 2.69-1 (base-devel)
+core/automake 1.14.1-1 (base-devel)
+core/bash 4.3.011-1 (base)
+core/bison 3.0.2-1 (base-devel)
+community/blender 14:2.70a-4
+core/bzip2 1.0.6-5 (base)
+local/catalyst-test 14.4-11
+local/chromium-browser-bin 271227-1
+extra/clang 3.4.1-2
+community/cloc 1.60-1
+local/compton 0.1_beta2-4
+extra/conky 1.9.0-4
+local/copyq 2.1.0-1
+core/coreutils 8.22-4 (base)
+core/cronie 1.4.11-2
+core/cryptsetup 1.6.4-1 (base)
+extra/cups 1.7.2-1
+extra/deluge 1.3.6-4
+core/device-mapper 2.02.106-2 (base)
+core/dhcpcd 6.3.2-1 (base)
+core/dialog 1:1.2_20140219-1
+core/diffutils 3.3-1 (base)
+community/dmenu 4.5.13.5ed5e90-1
+community/docker 1:0.11.1-1
+local/drush 6.2.0-1
+community/dunst 1.0.0-2
+core/e2fsprogs 1.42.9-2 (base)
+extra/emacs 24.3-6
+local/emscripten-git 1.16.0-0
+extra/feh 2.12-1
+core/file 5.18-1 (base base-devel)
+core/filesystem 2013.05-2 (base)
+community/filezilla 3.8.0-1
+core/findutils 4.4.2-5 (base base-devel)
+extra/firefox 29.0.1-2
+core/flex 2.5.39-1 (base-devel)
+core/gawk 4.1.1-1 (base base-devel)
+core/gcc-libs 4.9.0-2 (base)
+core/gettext 0.18.3.2-1 (base base-devel)
+extra/gimp 2.8.10-1
+extra/git 1.9.3-1
+core/glibc 2.19-5 (base)
+community/gmrun 0.9.2-4
+extra/gnome-icon-theme-extras 3.12.0-1 (gnome)
+community/go 2:1.2.2-1
+local/google-chrome 35.0.1916.114-1
+core/grep 2.19-1 (base base-devel)
+core/grub 1:2.02.beta2-3
+extra/gvim 7.4.274-1
+core/gzip 1.6-1 (base base-devel)
+local/haxe 3.1.3-1 (devel)
+local/hipchat 2.2.1049-1
+local/htop-vi 1.0.3-1
+community/i3-wm 4.7.2-1 (i3)
+community/i3lock 2.5-2 (i3)
+community/i3status 2.8-2 (i3)
+extra/ifplugd 0.28-14
+community/iftop 1.0pre4-1
+extra/imagemagick 6.8.9.1-2
+core/inetutils 1.9.2-1 (base)
+core/iproute2 3.14.0-1 (base)
+core/iputils 20121221-3 (base)
+core/iw 3.14-1
+local/j4-dmenu-desktop-git 167.8b5c4bd-1
+local/j4status-git 258.3421139-1
+core/jfsutils 1.1.15-4 (base)
+extra/jre7-openjdk 7.u55_2.4.7-1
+extra/kde-wallpapers 4.13.1-1 (kde kde-meta kdebase)
+extra/kdeaccessibility-jovie 4.13.1-1 (kde kdeaccessibility)
+extra/kdeaccessibility-kaccessible 4.13.1-1 (kde kdeaccessibility)
+extra/kdeaccessibility-kmag 4.13.1-1 (kde kdeaccessibility)
+extra/kdeaccessibility-kmousetool 4.13.1-1 (kde kdeaccessibility)
+extra/kdeaccessibility-kmouth 4.13.1-1 (kde kdeaccessibility)
+extra/kdeadmin-kcron 4.13.1-1 (kde kdeadmin)
+extra/kdeadmin-ksystemlog 4.13.1-1 (kde kdeadmin)
+extra/kdeadmin-kuser 4.13.1-1 (kde kdeadmin)
+extra/kdeartwork-colorschemes 4.13.1-1 (kde kdeartwork)
+extra/kdeartwork-desktopthemes 4.13.1-1 (kde kdeartwork)
+extra/kdeartwork-emoticons 4.13.1-1 (kde kdeartwork)
+extra/kdeartwork-iconthemes 4.13.1-1 (kde kdeartwork)
+extra/kdeartwork-kscreensaver 4.13.1-1 (kde kdeartwork)
+extra/kdeartwork-styles 4.13.1-1 (kde kdeartwork)
+extra/kdeartwork-wallpapers 4.13.1-1 (kde kdeartwork)
+extra/kdeartwork-weatherwallpapers 4.13.1-1 (kde kdeartwork)
+extra/kdebase-dolphin 4.13.1-1 (kde kdebase)
+extra/kdebase-kdepasswd 4.13.1-1 (kde kdebase)
+extra/kdebase-kdialog 4.13.1-1 (kde kdebase)
+extra/kdebase-keditbookmarks 4.13.1-1 (kde kdebase)
+extra/kdebase-kfind 4.13.1-1 (kde kdebase)
+extra/kdebase-konq-plugins 4.13.1-1 (kde kdebase)
+extra/kdebase-konqueror 4.13.1-1 (kde kdebase)
+extra/kdebase-konsole 4.13.1-1 (kde kdebase)
+extra/kdebase-kwrite 4.13.1-1 (kde kdebase)
+extra/kdebase-plasma 4.13.1-1 (kde kdebase)
+extra/kdebase-workspace 4.11.9-2 (kde kdebase)
+extra/kdeedu-analitza 4.13.1-1 (kde kdeedu)
+extra/kdeedu-blinken 4.13.1-1 (kde kdeedu)
+extra/kdeedu-cantor 4.13.1-1 (kde kdeedu)
+extra/kdeedu-kalgebra 4.13.1-1 (kde kdeedu)
+extra/kdeedu-kalzium 4.13.1-1 (kde kdeedu)
+extra/kdeedu-kanagram 4.13.1-1 (kde kdeedu)
+extra/kdeedu-kbruch 4.13.1-1 (kde kdeedu)
+extra/kdeedu-kgeography 4.13.1-1 (kde kdeedu)
+extra/kdeedu-khangman 4.13.1-1 (kde kdeedu)
+extra/kdeedu-kig 4.13.1-1 (kde kdeedu)
+extra/kdeedu-kiten 4.13.1-1 (kde kdeedu)
+extra/kdeedu-klettres 4.13.1-1 (kde kdeedu)
+extra/kdeedu-kmplot 4.13.1-1 (kde kdeedu)
+extra/kdeedu-kstars 4.13.1-1 (kde kdeedu)
+extra/kdeedu-ktouch 4.13.1-1 (kde kdeedu)
+extra/kdeedu-kturtle 4.13.1-1 (kde kdeedu)
+extra/kdeedu-kwordquiz 4.13.1-1 (kde kdeedu)
+extra/kdeedu-marble 4.13.1-1 (kde kdeedu)
+extra/kdeedu-pairs 4.13.1-1 (kde kdeedu)
+extra/kdeedu-parley 4.13.1-1 (kde kdeedu)
+extra/kdeedu-rocs 4.13.1-1 (kde kdeedu)
+extra/kdeedu-step 4.13.1-1 (kde kdeedu)
+extra/kdegames-bomber 4.13.1-1 (kde kdegames)
+extra/kdegames-bovo 4.13.1-1 (kde kdegames)
+extra/kdegames-granatier 4.13.1-1 (kde kdegames)
+extra/kdegames-kajongg 4.13.1-2 (kde kdegames)
+extra/kdegames-kapman 4.13.1-1 (kde kdegames)
+extra/kdegames-katomic 4.13.1-1 (kde kdegames)
+extra/kdegames-kblackbox 4.13.1-1 (kde kdegames)
+extra/kdegames-kblocks 4.13.1-1 (kde kdegames)
+extra/kdegames-kbounce 4.13.1-1 (kde kdegames)
+extra/kdegames-kbreakout 4.13.1-1 (kde kdegames)
+extra/kdegames-kdiamond 4.13.1-1 (kde kdegames)
+extra/kdegames-kfourinline 4.13.1-1 (kde kdegames)
+extra/kdegames-kgoldrunner 4.13.1-1 (kde kdegames)
+extra/kdegames-kigo 4.13.1-1 (kde kdegames)
+extra/kdegames-killbots 4.13.1-1 (kde kdegames)
+extra/kdegames-kiriki 4.13.1-1 (kde kdegames)
+extra/kdegames-kjumpingcube 4.13.1-1 (kde kdegames)
+extra/kdegames-klickety 4.13.1-1 (kde kdegames)
+extra/kdegames-klines 4.13.1-1 (kde kdegames)
+extra/kdegames-kmahjongg 4.13.1-1 (kde kdegames)
+extra/kdegames-kmines 4.13.1-1 (kde kdegames)
+extra/kdegames-knavalbattle 4.13.1-1 (kde kdegames)
+extra/kdegames-knetwalk 4.13.1-1 (kde kdegames)
+extra/kdegames-kolf 4.13.1-1 (kde kdegames)
+extra/kdegames-kollision 4.13.1-1 (kde kdegames)
+extra/kdegames-konquest 4.13.1-1 (kde kdegames)
+extra/kdegames-kpatience 4.13.1-1 (kde kdegames)
+extra/kdegames-kreversi 4.13.1-1 (kde kdegames)
+extra/kdegames-kshisen 4.13.1-1 (kde kdegames)
+extra/kdegames-ksirk 4.13.1-1 (kde kdegames)
+extra/kdegames-ksnakeduel 4.13.1-1 (kde kdegames)
+extra/kdegames-kspaceduel 4.13.1-1 (kde kdegames)
+extra/kdegames-ksquares 4.13.1-1 (kde kdegames)
+extra/kdegames-ksudoku 4.13.1-1 (kde kdegames)
+extra/kdegames-ktuberling 4.13.1-1 (kde kdegames)
+extra/kdegames-kubrick 4.13.1-1 (kde kdegames)
+extra/kdegames-lskat 4.13.1-1 (kde kdegames)
+extra/kdegames-palapeli 4.13.1-1 (kde kdegames)
+extra/kdegames-picmi 4.13.1-1 (kde kdegames)
+extra/kdegraphics-gwenview 4.13.1-1 (kde kdegraphics)
+extra/kdegraphics-kamera 4.13.1-1 (kde kdegraphics)
+extra/kdegraphics-kcolorchooser 4.13.1-1 (kde kdegraphics)
+extra/kdegraphics-kgamma 4.13.1-1 (kde kdegraphics)
+extra/kdegraphics-kolourpaint 4.13.1-1 (kde kdegraphics)
+extra/kdegraphics-kruler 4.13.1-1 (kde kdegraphics)
+extra/kdegraphics-ksnapshot 4.13.1-1 (kde kdegraphics)
+extra/kdegraphics-okular 4.13.1-2 (kde kdegraphics)
+extra/kdemultimedia-audiocd-kio 4.13.1-1 (kde kdemultimedia)
+extra/kdemultimedia-dragonplayer 4.13.1-1 (kde kdemultimedia)
+extra/kdemultimedia-ffmpegthumbs 4.13.1-1 (kde kdemultimedia)
+extra/kdemultimedia-juk 4.13.1-1 (kde kdemultimedia)
+extra/kdemultimedia-kmix 4.13.1-1 (kde kdemultimedia)
+extra/kdemultimedia-kscd 4.13.1-1 (kde kdemultimedia)
+extra/kdemultimedia-mplayerthumbs 4.13.1-1 (kde kdemultimedia)
+extra/kdenetwork-filesharing 4.13.1-1 (kde kdenetwork)
+extra/kdenetwork-kget 4.13.1-1 (kde kdenetwork)
+extra/kdenetwork-kopete 4.13.1-1 (kde kdenetwork)
+extra/kdenetwork-kppp 4.13.1-1 (kde kdenetwork)
+extra/kdenetwork-krdc 4.13.1-1 (kde kdenetwork)
+extra/kdenetwork-krfb 4.13.1-1 (kde kdenetwork)
+extra/kdenetwork-strigi-analyzers 4.13.1-1 (kde kdenetwork)
+extra/kdenetwork-zeroconf-ioslave 4.13.1-1 (kde kdenetwork)
+extra/kdepim-akonadiconsole 4.13.1-1 (kde kdepim)
+extra/kdepim-akregator 4.13.1-1 (kde kdepim)
+extra/kdepim-blogilo 4.13.1-1 (kde kdepim)
+extra/kdepim-console 4.13.1-1 (kde kdepim)
+extra/kdepim-kaddressbook 4.13.1-1 (kde kdepim)
+extra/kdepim-kalarm 4.13.1-1 (kde kdepim)
+extra/kdepim-kjots 4.13.1-1 (kde kdepim)
+extra/kdepim-kleopatra 4.13.1-1 (kde kdepim)
+extra/kdepim-kmail 4.13.1-1 (kde kdepim)
+extra/kdepim-knode 4.13.1-1 (kde kdepim)
+extra/kdepim-knotes 4.13.1-1 (kde kdepim)
+extra/kdepim-kontact 4.13.1-1 (kde kdepim)
+extra/kdepim-korganizer 4.13.1-1 (kde kdepim)
+extra/kdepim-kresources 4.13.1-1 (kde kdepim)
+extra/kdepim-ktimetracker 4.13.1-1 (kde kdepim)
+extra/kdepim-ktnef 4.13.1-1 (kde kdepim)
+extra/kdeplasma-addons-applets-bball 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-applets-binary-clock 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-applets-blackboard 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-applets-bookmarks 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-applets-bubblemon 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-applets-calculator 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-applets-charselect 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-applets-comic 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-applets-community 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-applets-dict 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-applets-eyes 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-applets-fifteenpuzzle 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-applets-filewatcher 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-applets-frame 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-applets-fuzzy-clock 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-applets-icontasks 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-applets-incomingmsg 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-applets-kimpanel 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-applets-knowledgebase 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-applets-kolourpicker 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-applets-konqprofiles 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-applets-konsoleprofiles 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-applets-lancelot 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-applets-leavenote 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-applets-life 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-applets-luna 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-applets-magnifique 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-applets-mediaplayer 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-applets-microblog 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-applets-news 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-applets-notes 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-applets-nowplaying 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-applets-paste 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-applets-pastebin 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-applets-plasmaboard 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-applets-previewer 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-applets-qalculate 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-applets-rememberthemilk 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-applets-rssnow 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-applets-showdashboard 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-applets-showdesktop 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-applets-social-news 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-applets-spellcheck 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-applets-systemloadviewer 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-applets-timer 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-applets-unitconverter 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-applets-weather 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-applets-weatherstation 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-applets-webslice 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-containments 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-runners-audioplayercontrol 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-runners-browserhistory 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-runners-characters 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-runners-contacts 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-runners-converter 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-runners-datetime 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-runners-dictionary 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-runners-events 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-runners-katesessions 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-runners-konquerorsessions 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-runners-konsolesessions 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-runners-kopete 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-runners-mediawiki 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-runners-spellchecker 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-runners-translator 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-runners-youtube 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-wallpapers-mandelbrot 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-wallpapers-marble 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-wallpapers-pattern 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-wallpapers-potd 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-wallpapers-qmlwallpapers 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-wallpapers-virus 4.13.1-1 (kde kdeplasma-addons)
+extra/kdeplasma-addons-wallpapers-weather 4.13.1-1 (kde kdeplasma-addons)
+extra/kdesdk-cervisia 4.13.1-1 (kde kdesdk)
+extra/kdesdk-dev-scripts 4.13.1-1 (kde kdesdk)
+extra/kdesdk-dev-utils 4.13.1-1 (kde kdesdk)
+extra/kdesdk-dolphin-plugins 4.13.1-1 (kde kdesdk)
+extra/kdesdk-kapptemplate 4.13.1-1 (kde kdesdk)
+extra/kdesdk-kate 4.13.1-1 (kde kdesdk)
+extra/kdesdk-kcachegrind 4.13.1-1 (kde kdesdk)
+extra/kdesdk-kioslaves 4.13.1-1 (kde kdesdk)
+extra/kdesdk-kompare 4.13.1-1 (kde kdesdk)
+extra/kdesdk-lokalize 4.13.1-1 (kde kdesdk)
+extra/kdesdk-okteta 4.13.1-1 (kde kdesdk)
+extra/kdesdk-poxml 4.13.1-1 (kde kdesdk)
+extra/kdesdk-strigi-analyzers 4.13.1-1 (kde kdesdk)
+extra/kdesdk-thumbnailers 4.13.1-1 (kde kdesdk)
+extra/kdesdk-umbrello 4.13.1-1 (kde kdesdk)
+extra/kdetoys-amor 4.13.1-1 (kde kdetoys)
+extra/kdetoys-kteatime 4.13.1-1 (kde kdetoys)
+extra/kdetoys-ktux 4.13.1-1 (kde kdetoys)
+extra/kdeutils-ark 4.13.1-1 (kde kdeutils)
+extra/kdeutils-filelight 4.13.1-1 (kde kdeutils)
+extra/kdeutils-kcalc 4.13.1-1 (kde kdeutils)
+extra/kdeutils-kcharselect 4.13.1-1 (kde kdeutils)
+extra/kdeutils-kdf 4.13.1-1 (kde kdeutils)
+extra/kdeutils-kfloppy 4.13.1-1 (kde kdeutils)
+extra/kdeutils-kgpg 4.13.1-1 (kde kdeutils)
+extra/kdeutils-kremotecontrol 4.13.1-1 (kde kdeutils)
+extra/kdeutils-ktimer 4.13.1-1 (kde kdeutils)
+extra/kdeutils-kwalletmanager 4.13.1-1 (kde kdeutils)
+extra/kdeutils-print-manager 4.13.1-1 (kde kdeutils)
+extra/kdeutils-superkaramba 4.13.1-1 (kde kdeutils)
+extra/kdeutils-sweeper 4.13.1-1 (kde kdeutils)
+extra/kdewebdev-kfilereplace 4.13.1-1 (kde kdewebdev)
+extra/kdewebdev-kimagemapeditor 4.13.1-1 (kde kdewebdev)
+extra/kdewebdev-klinkstatus 4.13.1-1 (kde kdewebdev)
+extra/kdewebdev-kommander 4.13.1-1 (kde kdewebdev)
+core/less 458-1 (base)
+multilib/lib32-alsa-plugins 1.0.27-1
+multilib/lib32-libpulse 5.0-1
+multilib/lib32-mpg123 1.19.0-1
+multilib/lib32-openal 1.15.1-1
+extra/libreoffice-writer 4.2.4-1 (libreoffice)
+core/licenses 20130203-1 (base)
+core/linux 3.14.4-1 (base)
+core/logrotate 3.8.7-3 (base)
+core/lvm2 2.02.106-2 (base)
+local/lxqt-desktop-git 0.7.0-1
+core/man-db 2.6.7.1-1 (base)
+core/man-pages 3.67-1 (base)
+extra/mariadb 5.5.37-1
+core/mdadm 3.3-2 (base)
+extra/mercurial 3.0-1
+core/mlocate 0.26-3
+community/mongodb 2.6.1-2
+extra/mono 3.2.8-1
+extra/mpg123 1.19.0-1
+community/mpv 0.3.10-1
+extra/mutagen 1.23-1
+core/netctl 1.7-1 (base)
+extra/network-manager-applet 0.9.8.10-1
+community/nodejs 0.10.28-3
+local/oh-my-zsh-git 2536.00d6ef8-1
+local/openal-hrtf 1.0-1
+local/pa-applet-git 16.45685c4-1
+community/pacgraph 20110629-2
+core/pacman 4.1.2-6 (base base-devel)
+community/parallel 20140522-1
+extra/pavucontrol 2.0-2
+core/pciutils 3.2.1-1 (base)
+core/pcmciautils 018-7 (base)
+core/perl 5.18.2-2 (base)
+extra/perl-image-exiftool 9.60-1
+community/phantomjs 1.9.7-1
+extra/php 5.5.12-1
+extra/php-apache 5.5.12-1
+local/php-composer 1.0.0_alpha8-2
+extra/php-fpm 5.5.12-1
+extra/php-gd 5.5.12-1
+extra/php-pear 5.5.12-1
+core/pkg-config 0.28-1 (base-devel)
+extra/postfix 2.11.1-1
+core/procps-ng 3.3.9-3 (base)
+local/profile-sync-daemon 5.47.1-1
+core/psmisc 22.21-2 (base)
+community/pstotext 1.9-2
+extra/pulseaudio 5.0-1
+extra/pulseaudio-alsa 2-2
+extra/python-pip 1.5.6-1
+extra/python-virtualenv 1.11.5-1
+extra/python2-pip 1.5.6-1
+extra/python2-virtualenv 1.11.5-1
+community/ranger 1.6.1-2
+community/recoll 1.19.13-1
+community/redis 2.8.9-1
+core/reiserfsprogs 3.6.24-1 (base)
+community/rox 2.11-1
+community/rtorrent 0.9.4-1
+local/ruby-sass 3.3.7-1
+local/rxvt-unicode-patched 9.20-1
+core/s-nail 14.6.4-1 (base)
+extra/sdl2 2.0.3-1
+core/sed 4.2.2-3 (base base-devel)
+core/shadow 4.2.1-1 (base)
+multilib/skype 4.2.0.13-4
+extra/slim 1.3.6-4
+extra/slim-themes 1.2.3-6
+community/sloccount 2.26-7
+community/sshfs 2.5-1
+multilib/steam 1.0.0.47-2
+extra/subversion 1.8.9-1
+core/sudo 1.8.10.p3-1 (base-devel)
+local/sxhkd 0.5.3-1
+community/sxiv 1.2-1
+core/sysfsutils 2.1.0-8 (base)
+core/systemd-sysvcompat 212-3 (base)
+core/tar 1.27.1-1 (base)
+local/termite 7-2
+core/texinfo 5.2-2 (base base-devel)
+community/the_silver_searcher 0.22.0-1
+community/tig 2.0.2-1
+extra/transmission-qt 2.82-1
+extra/tree 1.7.0-1
+extra/unzip 6.0-6
+community/urxvt-perls 2.1-1
+core/usbutils 007-1 (base)
+core/util-linux 2.24.1-6 (base base-devel)
+core/vi 1:050325-3 (base)
+community/virtualbox 4.3.12-1
+community/virtualbox-host-dkms 4.3.12-1
+extra/wget 1.15-1
+core/which 2.20-6 (base base-devel)
+multilib/wine 1.7.19-3
+local/wireshark-qt 1.10.7-1
+core/wpa_actiond 1.4-2
+core/wpa_supplicant 2.1-3
+local/xcursor-neutralplus 1.2-3
+extra/xf86-input-synaptics 1.8.0-1 (xorg-drivers xorg)
+core/xfsprogs 3.1.11-2 (base)
+extra/xorg-server 1.15.1-1 (xorg)
+extra/xorg-server-utils 7.6-3
+extra/xorg-xinit 1.3.3-3
+extra/xorg-xlsfonts 1.0.4-1
+extra/xterm 304-1
+archlinuxfr/yaourt 1.3-1
+local/zathura-pdf-poppler-git 20120314-1
+extra/zenity 3.12.1-1
+extra/zip 3.0-3
+extra/zsh 5.0.5-1
