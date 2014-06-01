@@ -4,13 +4,13 @@ xrdb -load ~/.Xresources &
 xset s noblank &
 xset s off &
 
-case $1 in
-i3)
-    compton --vsync opengl &
-    copyq &
-    pulseaudio --start &
-    xsetroot -cursor_name left_ptr &
-    ;;
-esac
+# case $1 in
+# i3)
+#     compton --vsync opengl &
+#     copyq &
+#     pulseaudio --start &
+#     xsetroot -cursor_name left_ptr &
+#     ;;
+# esac
 
 exec $1
