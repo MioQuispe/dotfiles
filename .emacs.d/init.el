@@ -11,6 +11,8 @@
 (add-to-list 'package-archives
              '("marmalade" . "http://marmalade-repo.org/packages/") t)
 
+(add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
+
 ;;; from purcell/emacs.d
 (defun require-package (package &optional min-version no-refresh)
   "Install given PACKAGE, optionally requiring MIN-VERSION.
